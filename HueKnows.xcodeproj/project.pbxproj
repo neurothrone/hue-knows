@@ -11,6 +11,12 @@
 		2FA079DB28F5DAC0004A0A00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA079DA28F5DAC0004A0A00 /* ContentView.swift */; };
 		2FA079DD28F5DAC1004A0A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA079DC28F5DAC1004A0A00 /* Assets.xcassets */; };
 		2FA079E028F5DAC1004A0A00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA079DF28F5DAC1004A0A00 /* Preview Assets.xcassets */; };
+		2FA079E828F5DAE0004A0A00 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2FA079E628F5DAE0004A0A00 /* LICENSE */; };
+		2FA079E928F5DAE0004A0A00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2FA079E728F5DAE0004A0A00 /* README.md */; };
+		2FA079EE28F60428004A0A00 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA079ED28F60428004A0A00 /* ColorType.swift */; };
+		2FA079F128F605E8004A0A00 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA079F028F605E8004A0A00 /* String+Extensions.swift */; };
+		2FA079F328F60B3F004A0A00 /* GameOverSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA079F228F60B3F004A0A00 /* GameOverSheet.swift */; };
+		2FA079F628F61614004A0A00 /* ColorButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA079F528F61614004A0A00 /* ColorButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		2FA079DA28F5DAC0004A0A00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FA079DC28F5DAC1004A0A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA079DF28F5DAC1004A0A00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FA079E628F5DAE0004A0A00 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2FA079E728F5DAE0004A0A00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2FA079ED28F60428004A0A00 /* ColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
+		2FA079F028F605E8004A0A00 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		2FA079F228F60B3F004A0A00 /* GameOverSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverSheet.swift; sourceTree = "<group>"; };
+		2FA079F528F61614004A0A00 /* ColorButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,8 @@
 		2FA079CC28F5DAC0004A0A00 = {
 			isa = PBXGroup;
 			children = (
+				2FA079E628F5DAE0004A0A00 /* LICENSE */,
+				2FA079E728F5DAE0004A0A00 /* README.md */,
 				2FA079D728F5DAC0004A0A00 /* HueKnows Watch App */,
 				2FA079D628F5DAC0004A0A00 /* Products */,
 			);
@@ -51,9 +65,10 @@
 		2FA079D728F5DAC0004A0A00 /* HueKnows Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				2FA079D828F5DAC0004A0A00 /* HueKnowsApp.swift */,
-				2FA079DA28F5DAC0004A0A00 /* ContentView.swift */,
-				2FA079DC28F5DAC1004A0A00 /* Assets.xcassets */,
+				2FA079EA28F6040A004A0A00 /* App */,
+				2FA079EF28F605DF004A0A00 /* Extensions */,
+				2FA079EC28F60415004A0A00 /* Models */,
+				2FA079EB28F6040A004A0A00 /* UI */,
 				2FA079DE28F5DAC1004A0A00 /* Preview Content */,
 			);
 			path = "HueKnows Watch App";
@@ -65,6 +80,42 @@
 				2FA079DF28F5DAC1004A0A00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FA079EA28F6040A004A0A00 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2FA079D828F5DAC0004A0A00 /* HueKnowsApp.swift */,
+				2FA079DC28F5DAC1004A0A00 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2FA079EB28F6040A004A0A00 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2FA079DA28F5DAC0004A0A00 /* ContentView.swift */,
+				2FA079F228F60B3F004A0A00 /* GameOverSheet.swift */,
+				2FA079F528F61614004A0A00 /* ColorButtonsView.swift */,
+			);
+			name = UI;
+			path = "New Group/UI";
+			sourceTree = "<group>";
+		};
+		2FA079EC28F60415004A0A00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FA079ED28F60428004A0A00 /* ColorType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FA079EF28F605DF004A0A00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2FA079F028F605E8004A0A00 /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA079E828F5DAE0004A0A00 /* LICENSE in Resources */,
 				2FA079E028F5DAC1004A0A00 /* Preview Assets.xcassets in Resources */,
+				2FA079E928F5DAE0004A0A00 /* README.md in Resources */,
 				2FA079DD28F5DAC1004A0A00 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA079F128F605E8004A0A00 /* String+Extensions.swift in Sources */,
+				2FA079F328F60B3F004A0A00 /* GameOverSheet.swift in Sources */,
+				2FA079F628F61614004A0A00 /* ColorButtonsView.swift in Sources */,
 				2FA079DB28F5DAC0004A0A00 /* ContentView.swift in Sources */,
+				2FA079EE28F60428004A0A00 /* ColorType.swift in Sources */,
 				2FA079D928F5DAC0004A0A00 /* HueKnowsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
