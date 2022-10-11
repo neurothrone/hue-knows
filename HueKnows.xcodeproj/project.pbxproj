@@ -95,8 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				2FA079DA28F5DAC0004A0A00 /* ContentView.swift */,
-				2FA079F228F60B3F004A0A00 /* GameOverSheet.swift */,
 				2FA079F528F61614004A0A00 /* ColorButtonsView.swift */,
+				2FA079F228F60B3F004A0A00 /* GameOverSheet.swift */,
 			);
 			name = UI;
 			path = "New Group/UI";

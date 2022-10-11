@@ -35,12 +35,4 @@ extension ColorType: CaseIterable, Identifiable {
       return .black
     }
   }
-  
-  static var all: [ColorType] {
-    ColorType.allCases.filter { $0 != .black }
-  }
-  
-  static var random: ColorType {
-    ColorType.all.randomElement() ?? .red
-  }
 }

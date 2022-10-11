@@ -8,8 +8,6 @@
 import SwiftUI
 import UserNotifications
 
-
-
 struct ContentView: View {
   @State private var startTime: Date = .now
   @State private var currentLevel: Int = .zero
